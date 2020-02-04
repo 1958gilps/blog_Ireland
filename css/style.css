@@ -6,11 +6,11 @@ body {
     display: grid;
     height: 100%;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 10px;
     grid-gap: 5px;
     /* Set up rows and columns */
     grid-template-columns: 370px;
-    grid-template-rows: 75px 500px 150px 1fr;
+    grid-template-rows: 70px 500px 150px 1fr;
     grid-template-areas:
     "hd"
     "sd"
@@ -81,7 +81,7 @@ label {
         width: 100%;
         margin-top: 25px;
         grid-gap: 15px;
-        grid-template-columns: repeat(8, 100px);
+        grid-template-columns: repeat(8, 120px);
         grid-template-rows: 100px 700px 1fr;
         grid-template-areas:
         "hd hd hd hd hd hd hd hd"
@@ -115,22 +115,16 @@ label {
         border: 2px solid green;
         }
     #one {
-        height: 33%;
-        width: 100%;
         Background-image: image('images/Cliffs_of_Mohr.jpg');
         background-size: contain;
         background-repeat: no-repeat;
     }
     #two {
-        height: 33%;
-        width: 100%;
         background-image: image('images/Kilkenny_Castle.jpg');
         background-size: contain;
         background-repeat: no-repeat;
     }
     #three {
-        height: 33%;
-        width: 100%;
         background-image: image('images/Sheep.jpg');
         background-size: contain;
         background-repeat: no-repeat;
@@ -149,10 +143,8 @@ label {
     .container {
         display: grid;
         height: 100%;
-        width: 100%;
-        margin-top: 25px;
-        grid-gap: 15px;
-        grid-template-columns: repeat(8, 60px);
+        grid-gap: 5px;
+        grid-template-columns: repeat(8, 125x);
         grid-template-rows: 100px 700px 1fr;
         grid-template-areas:
         "hd hd hd hd hd hd hd hd"
@@ -185,22 +177,16 @@ label {
         border: 2px solid green;
     }
     #one {
-        height: 33%;
-        width: 100%;
         Background-image: image('images/Cliffs_of_Mohr.jpg');
         background-size: contain;
         background-repeat: no-repeat;
     }
-    #two {
-        height: 33%;
-        width: 100%;
+    #two {   
         background-image: image('images/Kilkenny_Castle.jpg');
         background-size: contain;
         background-repeat: no-repeat;
     }
     #three {
-        height: 33%;
-        width: 100%;
         background-image: image('images/Sheep.jpg');
         background-size: contain;
         background-repeat: no-repeat;
