@@ -1,2 +1,6 @@
-@import url("style.css");
-@import url("blog.css");
+@import url("smblog.css");
+@import url("mdblog.css");
+@import url("lgblog.css");
+@import url("smpost.css");
+@import url("mdpost.css");
+@import url("lgpost.css");

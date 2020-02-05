@@ -1,0 +1,68 @@
+body {
+    background-color: #c1e6d177;
+}
+/* Medium Screens */
+@media (min-width: 600px) and (max-width: 1100px) {
+    .container {
+        display: grid;
+        height: 100%;
+        width: 100%;
+        margin-top: 25px;
+        grid-gap: 15px;
+        grid-template-columns: repeat(8, 120px);
+        grid-template-rows: 100px 700px 1fr;
+        grid-template-areas:
+        "hd hd hd hd hd hd hd hd"
+        "sd sd sd sd sd main main main"
+        "ft ft ft ft ft ft ft ft";
+        border: 2px solid yellowgreen;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .header {
+        grid-area: hd;
+        align-items: center;
+        justify-content: left;
+    }
+    .sidebar {
+        grid-area: sd;
+        font-weight: 700;
+    }
+    .content {
+        grid-area: main;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+    }
+    .footer {
+        grid-area: ft;
+    }
+        /* Set up main images */
+    .box {
+        font-weight: 600;
+        justify-content: center;
+        border: 2px solid green;
+        }
+    #one {
+        Background-image: image('images/Cliffs_of_Mohr.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #two {
+        background-image: image('images/Kilkenny_Castle.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #three {
+        background-image: image('images/Sheep.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    label {
+        display: block;
+        font: 1rem 'Fira Sans', sans-serif;
+    }
+    input,
+    label {
+        margin: .4rem 0;
+    }
+}
