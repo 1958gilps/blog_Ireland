@@ -1,24 +1,6 @@
 body {
     background-color: #c1e6d177;
 }
-.container {
-    /* Set display to grid */
-    display: grid;
-    height: 100%;
-    width: 100%;
-    margin-top: 10px;
-    grid-gap: 5px;
-    /* Set up rows and columns */
-    grid-template-columns: 370px;
-    grid-template-rows: 70px 500px 150px 1fr;
-    grid-template-areas:
-    "hd"
-    "sd"
-    "main"
-    "ft";
-    border: 2px solid yellowgreen;
-    font-family: Arial, Helvetica, sans-serif;
-}
 .header {
     grid-area: hd;
     align-items: center;
